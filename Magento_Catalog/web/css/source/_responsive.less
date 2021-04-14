@@ -1,0 +1,166 @@
+.media-width(@extremum, @break) when (@extremum = 'max') and (@break = @screen__xs) {
+  //Banner
+  .main-banner {
+    position: relative;
+    .banner-title {
+      width: 100%;
+      position: absolute;
+      top: 40%;
+      left: 5%;
+    }
+   .title {
+      font-family: @font-family-name__sunvalley;
+      font-size: 28px;
+      line-height: 30px;
+      color: @color-white;
+      letter-spacing: 0.1px;
+    }
+    .description {
+        display: none;
+    }
+  }
+  .page-products .product-item-info {
+    padding-top: 17px;
+}
+    // .product-item-actions {
+    //     padding-bottom: 5px;
+    // }
+    // .column.main .product-item {
+    //     width: 100%;
+    //     margin:10px 0 10px 0;
+    //     &:hover{
+    //         box-shadow: 3px 3px 2px 2px @color-ddd;
+    //     }
+    // }
+    // .page-products .product-item-info {
+    //     width: 100%;
+    // }
+    // .product-image-container {
+    //     width: 100% !important; 
+    // }
+    .more-color {
+        letter-spacing: 0.3px;
+
+    }
+    .lable-sale {
+        padding: 3px 6px;
+        font-size: 11px;
+    }
+    .action.primary {
+        padding: 7px 10px;
+        font-size: 12px;
+    }
+}
+.media-width(@extremum, @break) when (@extremum = 'max') and (@break = @screen__s) {
+    //Banner
+    .main-banner {
+      position: relative;
+      .banner-title {
+        width: 100%;
+        position: absolute;
+        top: 27%;
+        left: 5%;
+      }
+     .title {
+        font-family: @font-family-name__sunvalley;
+        font-size: 40px;
+        line-height: 30px;
+        color: @color-white;
+        letter-spacing: 0.1px;
+      }
+      .description {
+        margin-right: 10%;
+        font-size: 12px;
+        line-height: 22px;
+        color: @color-white;
+        letter-spacing: 0.1px;
+        font-weight: 400;
+        font-family: @font-family-name__roboto;
+      }
+    }
+  }
+.media-width(@extremum, @break) when (@extremum = 'max') and (@break = @screen__m) {
+     //Banner
+     .main-banner {
+        position: relative;
+        .banner-title {
+          width: 100%;
+          position: absolute;
+          top: 35%;
+          left: 5%;
+        }
+       .title {
+            margin-bottom: 15px;
+          font-family: @font-family-name__sunvalley;
+          font-size: 52px;
+          line-height: 30px;
+          color: @color-white;
+          letter-spacing: 0.1px;
+        }
+        .description {
+          margin-right: 20%;
+          font-size: 12px;
+          line-height: 22px;
+          color: @color-white;
+          letter-spacing: 0.1px;
+          font-weight: 400;
+          font-family: @font-family-name__roboto;
+        }
+      }
+  
+    .filter-title strong {
+        padding: 12px 15px;
+    }
+      //hidden wishlist
+      .product-item-actions .actions-primary + .actions-secondary {
+        display: none;
+    }
+    .toolbar-amount {
+        float: right;
+    }
+        //product
+    .lable-order {
+        padding: 4px 4px;
+        font-size: 10px;
+    }
+    .column.main .product-item {
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .filter-title strong {
+        background-color: unset;
+        box-shadow: unset;
+        border-radius: unset;
+    }
+}
+.media-width(@extremum, @break) when (@extremum = 'max') and (@break = @screen__l) {
+
+  //Banner
+  .main-banner {
+    position: relative;
+    .banner-title {
+      width: 70%;
+      position: absolute;
+      top: 175px;
+      left: 40px; 
+    }
+    .title {
+      margin-bottom: 20px;
+      font-family: @font-family-name__sunvalley;
+      font-size: 72px;
+      line-height: 42px;
+      color: @color-white;
+      letter-spacing: 0.1px;
+    }
+    .description {
+      padding-right: 39%;
+      font-size: 15px;
+      line-height: 22px;
+      color: @color-white;
+      letter-spacing: 0.1px;
+      font-weight: 400;
+      font-family: @font-family-name__roboto;
+    }
+  }
+
+}
